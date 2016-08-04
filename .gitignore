@@ -28,3 +28,6 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+/UWP/Assembly-CSharp-firstpass/
+/UWP/Assembly-CSharp/
+/UWP/project.lock.json
