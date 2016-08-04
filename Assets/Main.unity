@@ -127,7 +127,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 470424, guid: c8685776cafe5d24493303e077fffcfb, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 154114, guid: c8685776cafe5d24493303e077fffcfb, type: 2}
       propertyPath: m_Layer
@@ -200,7 +200,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 412860, guid: b3d0fa1645b2b1a4398aca020e52925e, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b3d0fa1645b2b1a4398aca020e52925e, type: 2}
@@ -217,6 +217,7 @@ GameObject:
   - 92: {fileID: 823226658}
   - 124: {fileID: 823226659}
   - 81: {fileID: 823226657}
+  - 114: {fileID: 823226663}
   - 114: {fileID: 823226662}
   - 114: {fileID: 823226664}
   m_Layer: 0
@@ -292,7 +293,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1219723967}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &823226662
 MonoBehaviour:
@@ -316,6 +317,17 @@ MonoBehaviour:
   m_CurrentRenderSetting: 2
   m_CustomMaterial: {fileID: 15303, guid: 0000000000000000f000000000000000, type: 0}
   m_OcclusionMaterial: {fileID: 15302, guid: 0000000000000000f000000000000000, type: 0}
+--- !u!114 &823226663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 823226656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 483a32a1c20829f4c8909671e14e180b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &823226664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -352,7 +364,7 @@ GameObject:
   - 4: {fileID: 1219723967}
   - 114: {fileID: 1219723968}
   m_Layer: 0
-  m_Name: World
+  m_Name: Scene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -368,10 +380,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 2.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 823226661}
-  - {fileID: 949730744}
   - {fileID: 151162745}
   - {fileID: 1351586203}
+  - {fileID: 949730744}
+  - {fileID: 823226661}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -454,7 +466,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 432644, guid: c2e22098ce7c8da4590cceb5113bd50e, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3348178, guid: c2e22098ce7c8da4590cceb5113bd50e, type: 2}
       propertyPath: m_Mesh
