@@ -11,6 +11,7 @@ You will need to install several tools and potentially upgrade your version of W
   1. Select your Windows 10 virtual machine
   1. Click “Settings”
   1. Click “Processors & Memory”
+  1. Set Memory to 8096MB
   1. Expand “Advanced Options”
   1. Check “Enable hypervisor applications in this virtual machine”
   1. Start your virtual machine up
