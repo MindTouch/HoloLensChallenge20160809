@@ -1,6 +1,14 @@
 # HoloLensChallenge20160809
 Sample HoloLens Unity project for .NET Magic Night (2016-08-09)
 
+## Challenge
+1. Build Visual Studio solution.
+2. Run App in HoloLens Emulator.
+3. Use Gaze to project the cursor onto surfaces.
+4. Use Gesture to make Earth drop and bounce.
+5. Use Gesture to push Earth around.
+6. Use Voice Command to reset Earth position.
+
 ## Machine Setup
 You will need to install several tools and potentially upgrade your version of Windows to be able to develop for HoloLens.
 
